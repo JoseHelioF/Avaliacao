@@ -10,13 +10,21 @@
 </head>
 
 <body>
-      <main>
+    <main>
         <section class="cadastro">
             <div class="entradas">
                 <label for="nome">Nome:</label>
                 <input type="text" placeholder="Digite o nome aqui">
             </div>
-            <div class="entradas">
+            <div>
+                <form action="escolhe">
+                    <input class="tipo" type="radio" id="Fisica" name="Fisica" value="CPF" onchange="alteratipo()" >
+                    <label for="Fisica">Fisica</label>
+                    <input class="tipo" type="radio" id="Juridica" name="Fisica" value="CNPJ" onchange="alteratipo()" >
+                    <label for="Fisica">Juridica</label>
+                </form>
+            </div>
+            <div class="cpf">
                 <label for="cpf">CPF:</label>
                 <input type="text" placeholder="Digite o CPF aqui">
             </div>
@@ -24,17 +32,19 @@
                 <label for="cnpj">CNPJ:</label>
                 <input type="text" placeholder="Digite o CNPJ aqui">
             </div>
-            <div class="entradas">
+            <div class="cpf">
                 <label for="rg">RG:</label>
                 <input type="text" placeholder="Digite o RG aqui">
-            </div> 
+            </div>
             <div class="cnpj">
                 <label for="ie">IE:</label>
                 <input type="text" placeholder="Digite o IE aqui">
             </div>
+
         </section>
 
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

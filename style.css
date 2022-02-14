@@ -12,21 +12,11 @@ body {
     display: flex
         
 }
-main{
-    display: flex;
-}
-
-section{
-    padding: 10px;
-   
-}
 
 input{
     background-color: rgba(20, 136, 146 ,.4);
-    align-items: center;
-    border-radius: 2px;
 }
 
-.cnpj{
+.esconde{
     display: none;
 }
