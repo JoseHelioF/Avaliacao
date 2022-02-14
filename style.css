@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+body {
+    margin-top: 10vh;
+    align-items: center;
+    background-color: rgb(147, 214, 236);  
+    justify-content: space-around; 
+    display: flex
+        
+}
+main{
+    display: flex;
+}
+
+section{
+    padding: 10px;
+   
+}
+
+input{
+    background-color: rgba(20, 136, 146 ,.4);
+    align-items: center;
+    border-radius: 2px;
+}
+
+.cnpj{
+    display: none;
+}
